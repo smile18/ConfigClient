@@ -1,0 +1,12 @@
+  spring:
+    application:
+      name: orderclient
+      #include: orderclient
+    profiles:
+      active: test
+      #include: dev,test
+    cloud:
+      config:
+        uri: http://localhost:8888
+
+
